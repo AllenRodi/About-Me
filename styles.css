@@ -72,7 +72,22 @@ footer a {
     background: lightgrey;
 }
 
-#social {
+footer #social {
     padding: 10px 20px;
     font-size: 20px;
+}
+
+footer #social ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer #social ul li {
+    list-style: none;
+}
+
+footer #social ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
