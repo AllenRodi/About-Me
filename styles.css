@@ -49,5 +49,30 @@ footer {
     display: grid;
     grid-template-columns: auto 1fr auto;
     background-color: gray;
+}
 
+footer nav {
+    padding: 10px 20px;
+    font-size: 15px;
+    
+    
+}
+
+footer nav li {
+    list-style: none;
+
+}
+
+footer a {
+    color: beige;
+}
+
+ footer a:hover {
+    color: white;
+    background: lightgrey;
+}
+
+#social {
+    padding: 10px 20px;
+    font-size: 20px;
 }
