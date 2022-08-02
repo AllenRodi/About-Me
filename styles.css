@@ -90,4 +90,7 @@ footer #social ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
 }
