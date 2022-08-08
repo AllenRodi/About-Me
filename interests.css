@@ -43,46 +43,65 @@ html, body {
 }
 h1,h2,h3,h4,h5, h6{
     font-family: 'Alegreya Sans', sans-serif;
+    
 
 }
 h1 {
     font-size: 8em;
-    color: blueviolet;
+    color: rgb(205,6,168);
 
 }
 
 h2 {
-    font-size: 6.1em;
-    color: aqua;
+    font-size: 3.8em;
+    color: red;
+    text-indent: 10%;
 }
 
 h3 {
-    font-size: 4.8em;
-    color: greenyellow;
+    font-size: 3.8em;
+    color: red;
+    text-indent: 50%;
 }
 
 h4{
     font-size: 3.8em;
     color: red;
+    text-indent: 10%;
 
-}
-
-h5 {
-    font-size: 2em;
-    color: blue;
 }
 
 p{
-    color: slategray;
+    color: rgb(205, 6, 168);
     font-style: italic;
 }
 
 img {
     width: 50%;
-    height: 850px;
+    height: 600px;
     object-fit: cover;
     object-position: center;
 
+}
+
+#music {
+    display: block;
+    margin-left: auto;
+    /* margin-right: auto; */
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+
+}
+.flex p{
+    max-width:400px ;
+    margin: 0 30px;
+}
+
+.flex img{
+    width: 100%;
 }
 
 /* main */
@@ -90,6 +109,8 @@ img {
 main {
     max-width: 1400px;
     margin: 0 auto;
+    background-color: rgb(250, 231, 215);
+
 }
 
 /* footer */
