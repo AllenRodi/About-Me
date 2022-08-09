@@ -47,23 +47,25 @@ h1,h2,h3,h4,h5, h6{
 }
 h1 {
     font-size: 8em;
-    color: blueviolet;
+    color: rgb(106, 218, 32);
 
 }
 
 h2 {
     font-size: 6.1em;
-    color: aqua;
+    color: rgb(94, 107, 5);
 }
 
 h3 {
     font-size: 4.8em;
-    color: greenyellow;
+    color: rgb(94, 107, 5);
+    text-indent: 50%;
 }
 
 p{
-    color: slategray;
+    color: rgb(8, 113, 66);
     font-style: italic;
+    font-size: 1.8em;
 }
 
 img {
@@ -75,10 +77,22 @@ img {
 }
 #Zendaya {
     display: block;
-    
+    margin-left: auto;
 }
 
+.flex{
+    display: flex;
+    align-items: center;
 
+}
+.flex p{
+    max-width:400px ;
+    margin: 0 30px;
+}
+
+.flex img{
+    width: 100%;
+}
 
 /* main */
 
